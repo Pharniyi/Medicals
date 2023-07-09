@@ -2,20 +2,32 @@ body{
     margin: 0;
     padding:30px 0;
     box-sizing: border-box;
+    background-color: rgb(129, 129, 187);
 }
-.h1{
+
+#navbarNavDropdown{
+    justify-content: space-between;
+    display: flex;
+}
+.container-fluid a{
     font-family: IBM Plex Sans;
-    font-size: 32px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
-
-.head{
-    display: flex;
-    align-items: baseline;
+h1{
+    font-family: IBM Plex Sans ;
+    font-weight: 20;
+    font-size: 5px;
+    font-style: normal;
+    line-height: normal;
 }
-.container{
+.text{
+    background-color:#0360D9;
+}
+.doctor{
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
+    align-items: end;
 }
