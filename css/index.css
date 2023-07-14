@@ -67,4 +67,23 @@ h1{
     align-items: center;
     padding-top:  30px;
 }
-
+.reason{
+    color: var(--black, #001514);
+    font-family: IBM Plex Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px;
+    
+}
+.checkmark{
+    padding-left: 10px;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.lady{
+    padding-top: 150px;
+}
+.Dr .ol .li{
+    list-style-type: none;
+}
